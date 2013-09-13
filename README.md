@@ -5,7 +5,7 @@ Cliente JMS básico que muestra cómo enviar y recibir mensajes.
 
 Dispone de un productor de mensajes, un lector síncrono y otro asíncrono.
 
-Ha sido desarrollado usando NetBeans 7.3 (es un proyecto maven, lo que implica que se pueden usar otros entornos de desarollo compatibles con mave) y prevé conectarse a un servidor de aplicaciones JBoss 6.1.0, con HornetQ 2.2.5 instalado.
+Ha sido desarrollado usando NetBeans 7.3 (es un proyecto maven, lo que implica que se pueden usar otros entornos de desarollo compatibles con maven) y prevé conectarse a un servidor de aplicaciones JBoss 6.1.0, con HornetQ 2.2.5 instalado.
 
 Si se tiene instalado maven, git y jboss, se pueden seguir las siguientes instrucciones (Linux) para ejecutarlo:
 
