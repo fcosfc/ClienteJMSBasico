@@ -27,11 +27,11 @@ Si se tiene instalado maven, git y jboss, se pueden seguir las siguientes instru
 
 El comando anterior muestra la ayuda de la aplicación, para una prueba real se tiene que crear una cola en JBoss, editando el fichero hornetq-jms.xml, situado en $JBOSS_HOME/server/default/deploy/hornetq, y añadiendo, por ejemplo:
 
-   &ltqueue name="Betabeers.Test"&gt
-      &ltentry name="jms/Colas/Betabeers/Test"/&gt
-   &lt/queue>
+   \<queue name="Betabeers.Test"\>
+      \<entry name="jms/Colas/Betabeers/Test"/\>
+   \</queue\>
    
-Iniciar JBoss y dejar el consumidor asíncrono esperando datos:
+Iniciar JBoss y dejar el consumidor asíncrono esperando mensajes:
 
    java -jar ClienteJMSBasico-1.0.jar r /ConnectionFactory jms/Colas/Betabeers/Test
    
