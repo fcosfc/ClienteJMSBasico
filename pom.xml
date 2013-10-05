@@ -15,6 +15,12 @@
         </developer>
     </developers>
     
+    <scm>
+        <connection>scm:git:https://github.com/fcosfc/ClienteJMSBasico.git</connection>
+        <developerConnection>scm:git:https://github.com/fcosfc/ClienteJMSBasico.git</developerConnection>
+        <url>https://github.com/fcosfc/ClienteJMSBasico.git</url>
+    </scm>
+    
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
