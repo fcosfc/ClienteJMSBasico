@@ -3,11 +3,13 @@ ClienteJMSBasico
 
 Cliente JMS básico que muestra cómo enviar y recibir mensajes.
 
-El proyecto ha sido creado para ser presentado como apoyo a una charla sobre JMS en el Betabeers Estrecho de Gibraltar. Dispone de un productor de mensajes, un lector síncrono y otro asíncrono.
+El proyecto sirvió de apoyo a una charla sobre intercambio de datos mediante JMS, dentro del Betabeers Estrecho de Gibraltar, celebrado en Algeciras el día 24 de octubre de 2013. Dispone de un productor de mensajes, un lector síncrono y otro asíncrono.
 
-Ha sido desarrollado usando NetBeans 7.3 (es un proyecto maven, lo que implica que se pueden usar otros entornos de desarollo compatibles con maven) y prevé conectarse a un proveedor de mensajería HornetQ 2.2.5 instalado.
+Ha sido desarrollado usando NetBeans 7.3 (es un proyecto maven, lo que implica que se pueden usar otros entornos de desarollo compatibles con maven) y prevé conectarse a un proveedor de mensajería HornetQ 2.2.5 instalado en localhost.
 
-Si se tiene instalado maven, git y hornetq, se pueden seguir las siguientes instrucciones (Linux, pero fácilmente trasladables a MS Windows) para ejecutarlo:
+El siguiente vídeo explica como construir y ejecutar el proyecto en Windows XP: http://youtu.be/ss3FHrqx_vU 
+
+De todas formas, si se tiene instalado maven, git y hornetq, se pueden seguir las siguientes instrucciones (probadas en Linux Ubuntu 12.10) para ejecutarlo:
 
    git clone https://github.com/fcosfc/ClienteJMSBasico.git
    
